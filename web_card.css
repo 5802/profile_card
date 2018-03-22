@@ -1,0 +1,98 @@
+.web_card
+{
+    width: 300px;   
+    min-height: 300px;  
+    margin: 50px auto;
+    height: auto;
+    
+}
+.web_card img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition: 0.3 ease;
+}
+
+.name
+{
+    width: 100%;
+    height: 0;
+    text-align: center;
+    text-transform: uppercase;
+    visibility: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 30px black;
+    transition: 0.5s linear;
+}
+.web_card:hover img
+{
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.web_card:hover .name
+{
+    visibility: visible;
+    margin-top: 30px;
+    height: 50px;
+    transition: 0.5 linear;
+}
+.social
+{
+    display: flex;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    transition: 0.2s all linear;
+  
+   
+}
+
+.col
+{
+
+    flex-basis: 33.33%;
+   
+}
+
+.insta
+{
+    border-radius: 50%;
+    background: url(insta.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s all linear;
+}
+
+.fb
+{
+   border-radius: 50%;
+   background: url(fb1.jpg);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.whatsapp
+{
+    border-radius: 50%;
+    background: url(wapp.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.web_card:hover .social
+{
+    height: 50px;
+    visibility: visible;
+    transition: 0.3s all linear;
+    
+    
+   
+}
+
+
+
